@@ -1,0 +1,507 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7faf9">
+  <meta name="description" content="DENTALIS, clínica odontológica. Cuidamos tu sonrisa con atención personalizada y tecnología moderna.">
+  <title>DENTALIS | Clínica Odontológica</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <header class="header">
+    <nav class="nav container">
+      <a class="brand" href="#inicio" aria-label="Dentalis, inicio">
+        <span class="brand-icon">✳</span>
+        <span>DENTALIS<span class="brand-dot">.</span>
+          <small>CLÍNICA ODONTOLÓGICA</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="Abrir menú" aria-expanded="false"
+        aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#equipo">Nuestro equipo</a>
+        <a class="nav-button" href="#contacto">Agendar cita ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- PORTADA -->
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="eyebrow">
+            <span class="eyebrow-line"></span>
+            TU SONRISA, NUESTRA PRIORIDAD
+          </span>
+
+          <h1>
+            Una sonrisa sana
+            <span>lo cambia todo.</span>
+          </h1>
+
+          <p>
+            En DENTALIS combinamos atención cercana, experiencia
+            profesional y tecnología moderna para cuidar de tu
+            sonrisa en cada etapa de tu vida.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#contacto" class="button button-primary">
+              Agenda tu cita <span>↗</span>
+            </a>
+            <a href="#servicios" class="button button-secondary">
+              Conoce nuestros servicios
+            </a>
+          </div>
+
+          <div class="hero-note">
+            <span class="note-check">✓</span>
+            Atención personalizada para toda la familia
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <img
+            src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=1100&q=85"
+            alt="Atención odontológica en una clínica dental"
+          >
+          <div class="image-caption">
+            <span class="caption-icon">✳</span>
+            <div>
+              <strong>Tu salud oral importa</strong>
+              <span>Estamos aquí para ayudarte a sonreír.</span>
+            </div>
+          </div>
+          <div class="image-decoration"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BENEFICIOS -->
+    <section class="benefits">
+      <div class="container benefits-grid">
+        <div class="benefit">
+          <span class="benefit-icon">✳</span>
+          <div>
+            <strong>Atención cercana</strong>
+            <p>Te escuchamos y te orientamos.</p>
+          </div>
+        </div>
+
+        <div class="benefit">
+          <span class="benefit-icon">◇</span>
+          <div>
+            <strong>Tecnología moderna</strong>
+            <p>Herramientas para tu cuidado oral.</p>
+          </div>
+        </div>
+
+        <div class="benefit">
+          <span class="benefit-icon">♡</span>
+          <div>
+            <strong>Cuidado integral</strong>
+            <p>Soluciones para cada sonrisa.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section class="section about" id="nosotros">
+      <div class="container about-grid">
+        <div class="about-visual">
+          <img
+            src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1000&q=85"
+            alt="Interior de una clínica odontológica moderna"
+            loading="lazy"
+          >
+          <div class="about-badge">
+            <span>✳</span>
+            <strong>Sonrisas que inspiran confianza</strong>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <span class="eyebrow">CONÓCENOS</span>
+          <h2>Tu bienestar comienza con una sonrisa.</h2>
+
+          <p>
+            En DENTALIS creemos que cada paciente merece una atención
+            respetuosa, clara y adaptada a sus necesidades.
+          </p>
+
+          <p>
+            Nuestro propósito es ayudarte a mantener una buena salud
+            oral mediante valoraciones, prevención y tratamientos
+            odontológicos planificados junto a ti.
+          </p>
+
+          <ul class="check-list">
+            <li><span>✓</span> Atención centrada en cada paciente</li>
+            <li><span>✓</span> Explicación clara de los tratamientos</li>
+            <li><span>✓</span> Planes de cuidado personalizados</li>
+          </ul>
+
+          <a href="#contacto" class="text-link">
+            Conoce nuestra clínica <span>↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="section services" id="servicios">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">NUESTROS SERVICIOS</span>
+          <h2>Cuidamos cada detalle de <span>tu sonrisa.</span></h2>
+          <p>
+            Encuentra la atención odontológica que necesitas en un
+            espacio pensado para tu comodidad.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <img
+              src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=700&q=80"
+              alt="Revisión y cuidado dental"
+              loading="lazy"
+            >
+            <div class="service-body">
+              <span class="service-number">01</span>
+              <h3>Odontología general</h3>
+              <p>
+                Valoraciones, prevención y tratamientos para cuidar
+                tu salud oral.
+              </p>
+              <a href="#contacto">Consultar servicio ↗</a>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <img
+              src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&w=700&q=80"
+              alt="Tratamiento de ortodoncia"
+              loading="lazy"
+            >
+            <div class="service-body">
+              <span class="service-number">02</span>
+              <h3>Ortodoncia</h3>
+              <p>
+                Opciones para corregir la posición dental según
+                la valoración profesional.
+              </p>
+              <a href="#contacto">Consultar servicio ↗</a>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <img
+              src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=700&q=80"
+              alt="Procedimiento de cuidado dental"
+              loading="lazy"
+            >
+            <div class="service-body">
+              <span class="service-number">03</span>
+              <h3>Limpieza dental</h3>
+              <p>
+                Higiene profesional y orientación para mantener
+                una boca saludable.
+              </p>
+              <a href="#contacto">Consultar servicio ↗</a>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <img
+              src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=700&q=80"
+              alt="Consulta de odontología estética"
+              loading="lazy"
+            >
+            <div class="service-body">
+              <span class="service-number">04</span>
+              <h3>Estética dental</h3>
+              <p>
+                Alternativas estéticas que se evalúan de acuerdo
+                con las necesidades de cada paciente.
+              </p>
+              <a href="#contacto">Consultar servicio ↗</a>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <img
+              src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=700&q=80"
+              alt="Evaluación odontológica"
+              loading="lazy"
+            >
+            <div class="service-body">
+              <span class="service-number">05</span>
+              <h3>Implantes dentales</h3>
+              <p>
+                Evaluación y opciones de rehabilitación oral
+                según el diagnóstico.
+              </p>
+              <a href="#contacto">Consultar servicio ↗</a>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <img
+              src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=700&q=80"
+              alt="Consulta en clínica dental"
+              loading="lazy"
+            >
+            <div class="service-body">
+              <span class="service-number">06</span>
+              <h3>Odontología familiar</h3>
+              <p>
+                Acompañamiento preventivo y orientación para
+                distintas etapas de la vida.
+              </p>
+              <a href="#contacto">Consultar servicio ↗</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- LLAMADA A LA ACCIÓN -->
+    <section class="appointment-banner">
+      <div class="container appointment-content">
+        <div>
+          <span class="eyebrow">ES MOMENTO DE CUIDARTE</span>
+          <h2>Tu próxima sonrisa comienza aquí.</h2>
+          <p>
+            Contáctanos para consultar disponibilidad y programar
+            una valoración odontológica.
+          </p>
+        </div>
+
+        <a href="#contacto" class="button button-light">
+          Solicitar una cita ↗
+        </a>
+      </div>
+    </section>
+
+    <!-- EQUIPO -->
+    <section class="section team" id="equipo">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">NUESTRO EQUIPO</span>
+          <h2>Personas que cuidan <span>de tu sonrisa.</span></h2>
+          <p>
+            Una buena atención empieza escuchando y entendiendo
+            las necesidades de cada paciente.
+          </p>
+        </div>
+
+        <div class="team-grid">
+          <article class="team-card">
+            <img
+              src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=700&q=80"
+              alt="Fotografía ilustrativa de profesional de la salud"
+              loading="lazy"
+            >
+            <div>
+              <span class="team-role">ODONTOLOGÍA GENERAL</span>
+              <h3>Dra. Nombre Apellido</h3>
+              <p>Perfil profesional y experiencia por confirmar.</p>
+            </div>
+          </article>
+
+          <article class="team-card">
+            <img
+              src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=700&q=80"
+              alt="Fotografía ilustrativa de profesional de la salud"
+              loading="lazy"
+            >
+            <div>
+              <span class="team-role">ESPECIALIDAD POR CONFIRMAR</span>
+              <h3>Dr. Nombre Apellido</h3>
+              <p>Perfil profesional y experiencia por confirmar.</p>
+            </div>
+          </article>
+        </div>
+
+        <p class="demo-notice">
+          Perfiles y fotografías ilustrativos. Deben sustituirse por
+          información autorizada y verificada de la clínica real.
+        </p>
+      </div>
+    </section>
+
+    <!-- TESTIMONIOS DEMOSTRATIVOS -->
+    <section class="section testimonials">
+      <div class="container testimonial-layout">
+        <div class="testimonial-heading">
+          <span class="eyebrow">EXPERIENCIA DEL PACIENTE</span>
+          <h2>Una atención que empieza por escucharte.</h2>
+          <p>
+            La comunicación clara y el trato cercano son parte
+            importante de una buena experiencia odontológica.
+          </p>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="quote-mark">“</div>
+          <blockquote>
+            Aquí se mostrará la experiencia de un paciente real
+            una vez que la clínica cuente con su autorización
+            para publicar el testimonio.
+          </blockquote>
+          <div class="testimonial-person">
+            <div class="person-avatar">P</div>
+            <div>
+              <strong>Testimonio de demostración</strong>
+              <span>Contenido ilustrativo, no una reseña real</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section contact" id="contacto">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <span class="eyebrow">CONTÁCTANOS</span>
+          <h2>Estamos aquí para ayudarte a sonreír.</h2>
+          <p>
+            Escríbenos para consultar horarios, servicios
+            y disponibilidad de citas.
+          </p>
+
+          <div class="info-item">
+            <span class="info-icon">⌖</span>
+            <div>
+              <strong>Ubicación</strong>
+              <p>Dirección de la clínica por confirmar</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <span class="info-icon">◷</span>
+            <div>
+              <strong>Horario de atención</strong>
+              <p>Lunes a viernes: horario por confirmar</p>
+              <p>Sábados: horario por confirmar</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <span class="info-icon">☎</span>
+            <div>
+              <strong>Teléfono</strong>
+              <p>Configura aquí el teléfono de la clínica</p>
+            </div>
+          </div>
+
+          <a
+            href="#"
+            class="button button-whatsapp"
+            id="whatsappButton"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Consultar por WhatsApp ↗
+          </a>
+        </div>
+
+        <form class="contact-form" id="appointmentForm">
+          <h3>Solicita información</h3>
+          <p>Completa los datos para preparar tu mensaje.</p>
+
+          <div class="form-field">
+            <label for="patientName">Nombre</label>
+            <input id="patientName" name="nombre"
+              type="text" placeholder="Tu nombre"
+              autocomplete="name" required>
+          </div>
+
+          <div class="form-field">
+            <label for="patientPhone">Teléfono de contacto (opcional)</label>
+            <input id="patientPhone" name="telefono"
+              type="tel" placeholder="Tu teléfono"
+              autocomplete="tel">
+          </div>
+
+          <div class="form-field">
+            <label for="serviceSelect">Servicio de interés</label>
+            <select id="serviceSelect" name="servicio" required>
+              <option value="">Selecciona un servicio</option>
+              <option>Odontología general</option>
+              <option>Ortodoncia</option>
+              <option>Limpieza dental</option>
+              <option>Estética dental</option>
+              <option>Implantes dentales</option>
+              <option>Odontología familiar</option>
+              <option>Otro servicio</option>
+            </select>
+          </div>
+
+          <button type="submit" class="button button-primary button-full">
+            Continuar a WhatsApp ↗
+          </button>
+
+          <p class="form-note">
+            Se abrirá WhatsApp con el mensaje preparado.
+            La solicitud no constituye una cita confirmada.
+          </p>
+
+          <p class="form-status" id="formStatus" role="status"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="footer">
+    <div class="container footer-top">
+      <a class="brand footer-brand" href="#inicio">
+        <span class="brand-icon">✳</span>
+        <span>DENTALIS<span class="brand-dot">.</span>
+          <small>CLÍNICA ODONTOLÓGICA</small>
+        </span>
+      </a>
+
+      <p>
+        Cuidamos tu salud oral con atención cercana y personalizada.
+      </p>
+
+      <div class="social-links">
+        <a href="#" aria-label="Instagram de la clínica">IG</a>
+        <a href="#" aria-label="Facebook de la clínica">FB</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <span>© <span id="currentYear"></span> DENTALIS. Plantilla de demostración.</span>
+      <a href="#inicio">Volver arriba ↑</a>
+    </div>
+  </footer>
+
+</body>
+</html>
